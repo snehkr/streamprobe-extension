@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "StreamProbe",
+  "version": "1.0.0",
+  "description": "Advanced DRM and streaming media debugging platform.",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "activeTab",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "src/background/index.ts",
+    "type": "module"
+  },
+  "devtools_page": "devtools.html",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "StreamProbe",
+    "default_icon": {
+      "16": "src/assets/logo.png",
+      "32": "src/assets/logo.png",
+      "48": "src/assets/logo.png",
+      "128": "src/assets/logo.png"
+    }
+  },
+  "icons": {
+    "16": "src/assets/logo.png",
+    "32": "src/assets/logo.png",
+    "48": "src/assets/logo.png",
+    "128": "src/assets/logo.png"
+  }
+}
