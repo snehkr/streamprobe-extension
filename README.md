@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/radio-tower.svg" alt="StreamProbe Logo" width="120" height="120" />
+  <img src="src/assets/logo.png" alt="StreamProbe Logo" width="128" />
 
   <h1>StreamProbe</h1>
   <p><strong>Advanced DRM and Streaming Media Debugging Platform</strong></p>
